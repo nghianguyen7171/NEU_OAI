@@ -1,6 +1,6 @@
 # Olympic AI 2025 - Computer Vision Competition
 
-## 🏆 National Economic University (NEU) Olympic AI Competition
+## 🏆 National Economics University (NEU) Olympic AI Competition
 
 This repository contains the **Computer Vision (CV) Track** materials for the Olympic AI 2025 competition organized by National Economic University. The competition focuses on **Medical Image Segmentation with Explainable AI**.
 
