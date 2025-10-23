@@ -1,0 +1,99 @@
+# Olympic AI 2025 - Computer Vision Competition
+# .gitignore file
+
+# Hide backup context file (contains sensitive project information)
+backup-context.md
+
+# Keep dataset folder but hide large files
+chest-xray-masks-and-labels/
+!chest-xray-masks-and-labels/.gitkeep
+
+# Keep results folder but hide large files
+results/
+!results/.gitkeep
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Large model files (keep structure but hide large files)
+*.pth
+*.pkl
+*.h5
+*.hdf5
+
+# Large image files (keep structure but hide large files)
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.bmp
+
+# Keep important structure files
+!.gitkeep
+!README.md
+!requirements.txt
+!Exam/
+!Exam/**/*
